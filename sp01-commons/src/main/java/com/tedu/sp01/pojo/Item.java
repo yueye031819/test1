@@ -1,0 +1,18 @@
+package com.tedu.sp01.pojo;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
+
+// 自动生成get/set 必要的构造方法 
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Item {
+	
+	private Integer id;
+	private String name;
+	private Integer number;
+	
+}
